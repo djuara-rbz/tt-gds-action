@@ -41,6 +41,7 @@ runs:
     - name: Install cocotb
       shell: bash
       run: pip install cocotb==1.8.0
+           pip install cocotbext-spi
 
     - name: Install iverilog
       shell: bash
